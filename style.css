@@ -215,3 +215,51 @@ footer div
 {
     text-decoration: underline;
 }
+
+
+@media (max-width:600px)
+{
+    .footer-items ul li a
+{
+    
+    font-size:10px;
+    margin: 5px 5px;
+
+
+}
+.search-bar
+{
+    width: 400px;
+    height:44px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.4px solid rgb(180, 180, 180);
+    margin-top: 20px;
+    /* border-radius: 30%; */
+    /* border-right: 4px solid green; */
+    border-radius:  40px;
+}
+.voice-input
+{
+    
+    margin-right: 22px;
+
+}
+.fa-magnifying-glass{
+    margin-left: 22px;}
+
+.logo
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.google-logo
+{
+    margin: auto;
+}
+}
